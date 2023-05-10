@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,600&display=swap');
+.head{
+    text-align: center;
+    font-size: xx-large;
+    border: 2px red solid;
+    height: 60px;
+    padding-top: 26px;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.navbar{
+    padding: 10px;
+}
+
+.nav-link{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    border: 2px blue solid;
+    width: 100%;
+}
+
+.nav-link li{
+    padding: 19px 0px;
+    margin: 0px 75px;
+}

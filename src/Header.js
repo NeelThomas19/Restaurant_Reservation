@@ -1,9 +1,10 @@
 import React from 'react';
+import './Components.css';
 
 function Header() {
   return (
-    <header>
-      {/* Header content */}
+    <header className='head'>
+      Restaurant Reservation
     </header>
   );
 }
