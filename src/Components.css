@@ -2,17 +2,39 @@
 .head{
     text-align: center;
     font-size: xx-large;
-    border: 2px red solid;
     height: 60px;
     padding-top: 26px;
     font-family: 'Ysabeau', sans-serif;
+    width: 100%;
 }
 
 .navbar{
-    padding: 10px;
+    width: 100%;
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
 }
 
-.nav-link{
+.logo{
+    display: grid;
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu{
+    grid-column: 3/4;
+}
+
+.menu ul{
+    list-style: none;
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .nav-link{
     list-style: none;
     margin: 0px;
     padding: 0px;
@@ -20,9 +42,14 @@
     justify-content: center;
     border: 2px blue solid;
     width: 100%;
-}
+} */
 
 .nav-link li{
     padding: 19px 0px;
     margin: 0px 75px;
+    text-decoration: none;
+}
+
+.nav-link li a{
+    text-decoration: none;
 }
